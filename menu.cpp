@@ -273,7 +273,7 @@ void menu::draw()
 		draw_list->AddText(globals::default_font.im_font, 14.0f,
 			ImVec2(winPos.x + winSize.x - 220, winPos.y + 18),
 			IM_COL32(150, 150, 170, static_cast<int>((0.7f + pulseAnimation * 0.3f) * 255 * menuAlpha)),
-			"v1.0 | Maintained by Zyhloh");
+			"Created By psZachary | Updated by ZyhlohYT");
 		
 		// Add stylish X button in top right corner
 		// Define the X button position and size
